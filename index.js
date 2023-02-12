@@ -1,4 +1,4 @@
-relogio=()=>{  
+(relogio=()=>{  
     const relogio = document.querySelector('.relogio');
     let segundos = 0;
     let timer;
@@ -35,7 +35,4 @@ relogio=()=>{
             segundos = 0;
         }
     });
-};
-relogio();
-
-
+})();
